@@ -7,16 +7,16 @@ radio.onReceivedNumber(function (receivedNumber) {
             # . . . .
             # # # # .
             `)
+        basic.showNumber(receivedNumber)
     }
-    basic.showNumber(receivedNumber)
 })
 input.onButtonPressed(Button.A, function () {
     basic.showLeds(`
-        . # # # .
-        . . # . .
-        . . # . .
-        . . # . .
-        . # # # .
+        # # # . .
+        . # . . .
+        . # . . .
+        . # . . .
+        # # # . .
         `)
     basic.showNumber(tenInt)
 })
